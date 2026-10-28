@@ -1,0 +1,13 @@
+__pycache__/
+bin/
+logs/
+originals/
+state/
+tmp/
+Booking.code-workspace
+revisions.json
+verification.json
+
+# Private database and emulator app-data snapshots.
+backups/
+

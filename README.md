@@ -78,6 +78,10 @@ These skills help you write, refactor, and fix code.
 
 ## Tooling & Setup
 
+- **[local-review](local-review/SKILL.md)** — Prepare and switch Chaanz PR stacks for local browser or Android review. Reuses compatible worktrees, services and caches; preserves previous review state; bundles a configurable runner, captured-mail inbox, fixtures and verification tools.
+
+  Invoke `$local-review` with a PR URL. Supply credentials through local configuration; the public bundle contains no password defaults. See the [runtime reference](local-review/references/chaanz-runtime.md).
+
 - **setup-pre-commit** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
 
   ```
