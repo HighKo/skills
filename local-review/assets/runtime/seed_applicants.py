@@ -100,4 +100,3 @@ FROM platform.session s WHERE s.id='{args.session}';
 
 if __name__ == '__main__':
     main()
-

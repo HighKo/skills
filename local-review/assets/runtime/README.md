@@ -27,4 +27,3 @@ The inbox is served on loopback port 8090. Point local mail delivery to `/send`;
 Generated state, captured mail, backups, binaries and caches stay in the workspace runtime. The synthetic booking fixture targets only its explicitly guarded review database and reshapes that dataset. It is not appropriate for a shared or production database. The verifier and applicant seeder are booking-specific; adapt verification for unrelated PRs.
 
 For Android, reuse the SDK/AVD and replace-install/attach workflow; preserve app data. Do not run concurrent IDE and runner attach sessions or uninstall the app as an automatic install fallback.
-

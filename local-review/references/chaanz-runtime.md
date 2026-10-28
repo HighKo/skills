@@ -108,4 +108,3 @@ It binds to `127.0.0.1`, receives mail JSON at `POST /send`, renders the inbox a
 `LAMBDA_MAILER_URL` at `http://127.0.0.1:8090/send`. Captures live under that
 runtime's `state/mail.jsonl`, not in this skill. Check port ownership before
 starting a second inbox; do not displace an existing review's listener.
-

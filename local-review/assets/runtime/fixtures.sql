@@ -65,4 +65,3 @@ ON CONFLICT DO NOTHING;
 CREATE TABLE IF NOT EXISTS public.booking_local_setup (version integer PRIMARY KEY, created_at timestamptz NOT NULL DEFAULT now());
 INSERT INTO public.booking_local_setup(version) VALUES (1) ON CONFLICT DO NOTHING;
 COMMIT;
-

@@ -497,4 +497,3 @@ if __name__ == '__main__':
         print(f'Booking local: {error}', file=sys.stderr)
         print(f'See {LOGS}; use stop to stop only resources owned by this session.', file=sys.stderr)
         sys.exit(1)
-

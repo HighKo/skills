@@ -192,4 +192,3 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--configure-manual', action='store_true', help='Explicitly reopen/reconfigure the three manual scenario sessions; existing applicants remain')
     main(configure_manual=parser.parse_args().configure_manual)
-
